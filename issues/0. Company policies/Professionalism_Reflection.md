@@ -47,6 +47,7 @@ I've seen some great examples of good teamwork and professionalism in some of th
 - Constantly sharing updates with my team/supervisor regarding my work.
 
 *How might you follow up with colleagues or supervisors if you need information/action from them? How would you escalate it further if you don't get a response and when would you escalate?*
+
 I'll kindly ask them through the appropriate channels and during reasonable hours. If I don't get a response in a long enough time (like a day), I'll send quick and concise follow-up messages over an appropriate interval.
 
 *What are some things you won't do?*
