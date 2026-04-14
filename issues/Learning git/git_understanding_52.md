@@ -15,10 +15,10 @@ Overly long and cluttered messages also slows things down as they can obscure re
 
 ### Documentation
 A vague commit message:
-![Test1](/issues/_images/Commits_001.jpg)
+![Test1](/issues/_images/Commits_002.jpg)
 
 An overly detailed commit message:
-![Test2](/issues/_images/Commits_002.jpg)
+![Test2](/issues/_images/Commits_001.jpg)
 
 A well-structured commmit message:
 ![Test3](/issues/_images/Commits_003.jpg)
