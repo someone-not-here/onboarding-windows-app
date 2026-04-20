@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="onboarding_unit_test_2.Tests/onboarding_unit_test_2.Tests.csproj" />
+  <Project Path="onboarding_unit_test_2/onboarding_unit_test_2.csproj" />
+</Solution>
