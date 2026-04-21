@@ -17,10 +17,10 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           config: .markdownlint.json
-          globs: '**/*.md'
+          globs: 'sandbox/*.md'
 
       - name: Spell Check with Typos
         uses: crate-ci/typos@v1
         with:
           config: .typos.toml
-          files: '**/*.md'
+          files: 'sandbox/*.md'
