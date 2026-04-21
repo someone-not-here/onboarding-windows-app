@@ -1,0 +1,26 @@
+name: Markdown Quality Checks
+
+on:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - '**.md'
+
+jobs:
+  markdown-quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Markdown Lint
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          config: .markdownlint.json
+          globs: '**/*.md'
+
+      - name: Spell Check with Typos
+        uses: crate-ci/typos@v1
+        with:
+          config: .typos.toml
+          files: '**/*.md'
