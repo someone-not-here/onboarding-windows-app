@@ -1,0 +1,27 @@
+name: Markdown Linting and Checking
+
+on:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - '**/*.md'
+
+jobs:
+  markdown-lint-and-spellchecks:
+    name: Markdown Lint + Spellcheck
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Install Tools
+        run: npm install -g markdownlint-cli cspell
+
+      - name: Run markdownlint-cli
+        run: markdownlint "**/*.md"
+
+      - name: Run cspell
+        run: cspell "**/*.md" --no-progress
+
+      - name: Run Markdown Lint (markdownlint-cli)
