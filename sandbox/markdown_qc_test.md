@@ -4,4 +4,4 @@
 
 ### Header 3
 
-Spell-cheks!
+Spell-checks!
