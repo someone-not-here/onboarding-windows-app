@@ -23,5 +23,3 @@ jobs:
 
       - name: Run cspell
         run: cspell "**/*.md" --no-progress
-
-      - name: Run Markdown Lint (markdownlint-cli)
