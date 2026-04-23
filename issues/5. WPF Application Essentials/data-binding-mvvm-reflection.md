@@ -29,7 +29,7 @@ MVVM, or Model-View-ViewModel, organizes code between three layers: the View, th
 The UI shouldn't be concerned about how the data is being managed behind-the-scenes, it should only be concerned about what data it should display. 
 
 ### Reflect on how MVVM can simplify testing and maintenance.
-A good implementation of MVVM would have the three layers decoupled and not dependent on one another to be able to function. With this independency, testing and maintenance are made easier — you can unit test the business logic within the Model independently, you can change UI elements without having to rewrite any code-behind logic, etc.
+A good implementation of MVVM would have the three layers decoupled and not dependent on one another to be able to function. With this independency, testing and maintenance are made easier â€” you can unit test the business logic within the Model independently, you can change UI elements without having to rewrite any code-behind logic, etc.
 
 ### What challenges might arise when applying these concepts to larger applications?
 It would be a challenge to manage many Views simultaneously, especially if some of these Views depend on other Views. Having to data bind a very complex View with many Controls can also be daunting.
@@ -165,4 +165,4 @@ namespace WPF_DataBinding.Model
 ```
 
 **Documentation:**
-![Test1](issues/_images/DataBinding_001.gif)
+![Test1](/issues/_images/DataBinding_001.gif)
