@@ -165,4 +165,5 @@ namespace WPF_DataBinding.Model
 ```
 
 **Documentation:**
+
 ![Test1](/issues/_images/DataBinding_001.gif)
