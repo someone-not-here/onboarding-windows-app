@@ -30,7 +30,7 @@ With UI testing, you need to test the actual UI itself. You're not testing the a
 
 **Documentation:**
 
-I wrote a unit test that verifies ```OnPropertyChanged()``` is called whenever the ```Name``` property of a ```Person``` object is changed (this would be via some Control within the UI).
+I wrote a unit test using XUnit that verifies ```OnPropertyChanged()``` is called whenever the ```Name``` property of a ```Person``` object is changed (this would be via some Control within the UI).
 
 **Code:**
 
